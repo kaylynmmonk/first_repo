@@ -1,3 +1,7 @@
+body {
+    font-family: Lato;  
+}
+
 header {
     padding: 20px;
 }
@@ -11,6 +15,13 @@ header h1 {
 article p {
     color: #dddddc;
     line-height: 20px;
+}
+
+article p:first-of-type::first-letter{
+float:left;
+font-size:4.5em;
+margin-right:0.15em;
+line-height:90%;
 }
 
 aside {
