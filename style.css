@@ -10,6 +10,7 @@ header h1 {
 
 article p {
     color: #dddddc;
+    line-height: 20px;
 }
 
 aside {
@@ -19,4 +20,8 @@ aside {
 .main {
     float: left;
     width: 68%;
+}
+
+aside section:last-of-type {
+    background-color: #10cfb9;
 }
