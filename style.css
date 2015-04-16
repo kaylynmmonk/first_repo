@@ -1,0 +1,22 @@
+header {
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+article p {
+    color: #dddddc;
+}
+
+aside {
+    float: right;
+}
+
+.main {
+    float: left;
+    width: 68%;
+}
